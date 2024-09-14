@@ -1,3 +1,3 @@
 # padaria-p-o-na-chapa
 
-https://juanmarrony-arquivo.github.io/site-padaria
+https://juanmarrony.github.io/site-padaria
