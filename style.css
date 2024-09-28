@@ -1,17 +1,24 @@
+html{
+    font-family: "Montserrat", sans-serif;
+
+    scroll-behavior: smooth;
+
+}
+
 body{
     margin-left: 0%;
-margin-right: 0%;
-margin-top: 0%;
-margin-top: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     background-color: rgb(255,250,205);
 }
 
 header{
-background-color: antiquewhite;
-padding-right: 150px;
-display: flex;
-align-items: center;
-justify-content: space-between;
+    background-color: rgb(83, 83, 83);
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -19,5 +26,78 @@ justify-content: space-between;
 .logo-header{
     width: 15%;
 }
+.menu ul {
+    display: flex;
+    list-style-type:none ;
+}
+.menu li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+#introducao{
+    display: flex;
+    height: 250px;
+    align-items: center;
+}
 
+.cesta{
+    width: 300px;
+}
+#introducao div{
+    width: 50%;
+    padding-right:100px ;
+    padding-left:100px ;
+    margin-top: 50px;
+}
+#sobre-nos{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(255,250,205) ; 
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(95, 93, 71);
 
+}
+#produtos{
+    padding-left: 100px;
+    padding-right:100px ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+#produtos h2{
+    padding-bottom: 25px;
+}
+
+    .produtos-conteudos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+    }
+.produto{
+    width: 200px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+.direitos-autorais{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
