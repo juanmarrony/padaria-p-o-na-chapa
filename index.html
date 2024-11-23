@@ -83,15 +83,77 @@
         </section>
     </main>
     <footer>
+        <h2> Fale conosco</h2>
+            <p>Entre em contato conosoco prenchendo o formulario abaixo. Responderemos o mais rapido o possivel! 
+            </p>
         <section id="contato">
-            <h2>Contato</h2>
-            <p>Telefone:(11) 917707712</p>
-            <p>Email: contato@paonachapa.com</p>
-            <p>Endereço: Rua do Pão, 123 - São Paulo</p>
-            <p class="direitos-autorais">&copy; 2024 - Padaria pão na Chapa - todos Direitos reservados</p>
+            <form id="form-contato">
+                <div class="grupo">
+                    <p>nome</p>       
+                    <input
+                    id="nome"
+                    type="text"
+                    placeholder="Digite seu nome completo"
+                    required
+                    />
+                </div>
+
+                <div class="grupo">
+                    <p>Email</p>       
+                    <input
+                    id="email"
+                    type="email"
+                    placeholder="Digite seu email"
+                    required
+                    />
+                
+                </div>
+
+                <div class="grupo">
+                    <p>Telefone</p>       
+                    <input
+                    id="telefone"
+                    type="tel"
+                    placeholder="Digite seu telefone"
+                    required
+                    />
+                </div>
+
+                <div class="grupo">
+                    <p>Mensagem</p>       
+                    <textarea
+                    id="mensagem"
+                    placeholder="Digite sua mensagem"
+                    rows="5"
+                    cols="50"
+                    required></textarea>
+                </div>
+                <button type="submit">Enviar mensagem</button>
+
+            </form>
         </section>
     </footer>
+<script>
+    const form = document.getElementById("form-contato");
 
+    form.addEventListener('submit', function (event){
+
+        event.preventDefault();
+
+        const nome = document.getElementById('nome').value;
+        const email = document.getElementById('email').value;
+        const mensagem = document.getElementById('mensagem').value;
+        const telefone = document.getElementById('telefone').value;
+
+        alert("Dados do contato: \n " +
+        "Nome:" + nome + "\n"+
+        "Telefone:" + telefone + "\n"+
+        "Email:" + telefone + "\n"+
+        "Mensagem:" + mensagem + "\n"
+        )
+
+    })
+</script>
 
 </body>
 

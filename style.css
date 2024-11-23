@@ -10,11 +10,11 @@ body{
     margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    background-color: rgb(255,250,205);
+    background-color: rgb(129, 129, 129);
 }
 
 header{
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(243, 231, 231);
     padding-right: 150px;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ header{
     text-align: center;
 }
 footer{
-    background-color: black;
+    background-color: rgb(80, 76, 76);
     color: white;
     text-align: center;
     padding-top: 25px;
@@ -101,3 +101,61 @@ footer p{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+ 
+#form-contato{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.grupo{
+    font-weight: bold;
+    color: black;
+}
+
+.grupo input,
+.grupo textarea{
+  width: 100%;
+  padding: 10%;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  background-color: #f9f9f9;
+}
+
+.grupo input:focus,
+.grupo textarea:focus{
+    border-color: rgb(165, 201, 189);
+    outline: nome
+
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+ 
+#contato button{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    font-size: bold;
+    background-color: rgb(95, 88, 88);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3 ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contato button:houver{
+    background-color: rgb(255,250,205);
+}
+
